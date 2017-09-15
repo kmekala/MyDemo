@@ -1,0 +1,93 @@
+2017-09-15 13:31:43,412 INFO  c.p.u.u.ProjectConfigurator [initializeProjectConfigurationsFromFile:49] [main] - Loading project configuration file 'project.properties'
+2017-09-15 13:32:46,055 INFO  c.p.u.u.ProjectConfigurator [initializeProjectConfigurationsFromFile:49] [main] - Loading project configuration file 'project.properties'
+2017-09-15 13:33:19,778 INFO  c.p.u.u.ObjectRepository [initialize:54] [TestNG-test=ArchiveAndDeleteTest-1] - Loading locator file: locators.properties
+2017-09-15 13:33:20,586 INFO  c.p.u.c.BasePage [type:165] [TestNG-test=ArchiveAndDeleteTest-1] - Successfully typed text 'xeno.andriopoulos@db.com' on element 'MyTeamsEmail' with locator value 'ID,edit-name'
+2017-09-15 13:33:21,046 INFO  c.p.u.c.BasePage [type:165] [TestNG-test=ArchiveAndDeleteTest-1] - Successfully typed text 'Install123' on element 'MyTeamsPassword' with locator value 'ID,edit-pass'
+2017-09-15 13:33:33,283 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndDeleteTest-1] - Successfully clicked on element 'MyTeamsLogin' with locator value 'ID,edit-submit'
+2017-09-15 13:33:33,283 INFO  c.p.u.u.A.ArchiveAndDeleteTeam [testArchiveAndDelete:62] [TestNG-test=ArchiveAndDeleteTest-1] - Now showing my teams home page.
+2017-09-15 13:33:33,626 INFO  c.p.u.c.BasePage [switchToFrameByName:701] [TestNG-test=ArchiveAndDeleteTest-1] - Successfully switched to frame identified by name 'PegaTeamsIfr'
+2017-09-15 13:33:33,932 INFO  c.p.u.c.BasePage [switchToFrameByName:701] [TestNG-test=ArchiveAndDeleteTest-1] - Successfully switched to frame identified by name 'PegaTeamsIfr'
+2017-09-15 13:33:34,254 INFO  c.p.u.c.BasePage [getText:507] [TestNG-test=ArchiveAndDeleteTest-1] - Text for element 'ActiveOrArchiveTeamsCount' with locator value 'CSS_SELECTOR,.work_identifier' is Active Teams (6)
+2017-09-15 13:33:34,255 INFO  c.p.u.u.A.ArchiveAndDeleteTeam [testArchiveAndDelete:68] [TestNG-test=ArchiveAndDeleteTest-1] - Active teams count:6
+2017-09-15 13:33:34,255 INFO  c.p.u.u.A.ArchiveAndDeleteTeam [testArchiveAndDelete:70] [TestNG-test=ArchiveAndDeleteTest-1] - Clicking on create button
+2017-09-15 13:33:35,173 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndDeleteTest-1] - Successfully clicked on element 'MyTeamsCreate' with locator value 'CSS_SELECTOR,.pi.icon-plus-circle'
+2017-09-15 13:33:45,177 INFO  c.p.u.u.A.ArchiveAndDeleteTeam [testArchiveAndDelete:73] [TestNG-test=ArchiveAndDeleteTest-1] - Now showing create team page
+2017-09-15 13:33:45,808 INFO  c.p.u.c.BasePage [type:165] [TestNG-test=ArchiveAndDeleteTest-1] - Successfully typed text 'TestName1505496825179' on element 'TeamName' with locator value 'XPATH,.//*[@id='pyLabel']'
+2017-09-15 13:33:46,366 INFO  c.p.u.c.BasePage [type:165] [TestNG-test=ArchiveAndDeleteTest-1] - Successfully typed text 'TestDesc1505496825179' on element 'TeamDescription' with locator value 'XPATH,.//*[@id='Description']'
+2017-09-15 13:33:48,405 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndDeleteTest-1] - Successfully clicked on element 'Next' with locator value 'CSS_SELECTOR,button[title$='item']'
+2017-09-15 13:33:58,410 INFO  c.p.u.u.A.ArchiveAndDeleteTeam [testArchiveAndDelete:78] [TestNG-test=ArchiveAndDeleteTest-1] - Now showing team page
+2017-09-15 13:33:59,165 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndDeleteTest-1] - Successfully clicked on element 'ActionsMenu' with locator value 'CSS_SELECTOR,button[role='button']'
+2017-09-15 13:34:00,070 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndDeleteTest-1] - Successfully clicked on element 'AddMembers' with locator value 'CSS_SELECTOR,.menu-item.menu-item-enabled:nth-of-type(1)'
+2017-09-15 13:34:01,240 INFO  c.p.u.c.BasePage [type:165] [TestNG-test=ArchiveAndDeleteTest-1] - Successfully typed text 'chaitanya.marathi@in.pega.com' on element 'AddEmail1' with locator value 'XPATH,.//*[@id='LoginID1']'
+2017-09-15 13:34:02,000 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndDeleteTest-1] - Successfully clicked on element 'AddMemeberSubmit' with locator value 'CSS_SELECTOR,button[id='ModalButtonSubmit']'
+2017-09-15 13:34:07,710 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndDeleteTest-1] - Successfully clicked on element 'ViewAllTeams' with locator value 'CSS_SELECTOR,.Standard_small'
+2017-09-15 13:34:18,066 INFO  c.p.u.c.BasePage [getText:507] [TestNG-test=ArchiveAndDeleteTest-1] - Text for element 'ActiveOrArchiveTeamsCount' with locator value 'CSS_SELECTOR,.work_identifier' is Active Teams (7)
+2017-09-15 13:34:18,067 INFO  c.p.u.u.A.ArchiveAndDeleteTeam [testArchiveAndDelete:85] [TestNG-test=ArchiveAndDeleteTest-1] - add-count:7
+2017-09-15 13:34:18,319 INFO  c.p.u.c.BasePage [getText:507] [TestNG-test=ArchiveAndDeleteTest-1] - Text for element 'ActiveOrArchiveTeamsCount' with locator value 'CSS_SELECTOR,.work_identifier' is Active Teams (7)
+2017-09-15 13:34:18,319 INFO  c.p.u.u.A.ArchiveAndDeleteTeam [testArchiveAndDelete:87] [TestNG-test=ArchiveAndDeleteTest-1] - Count validated after team created.
+2017-09-15 13:34:18,570 INFO  c.p.u.c.BasePage [getText:507] [TestNG-test=ArchiveAndDeleteTest-1] - Text for element 'ActiveOrArchiveTeamsCount' with locator value 'CSS_SELECTOR,.work_identifier' is Active Teams (7)
+2017-09-15 13:34:18,828 INFO  c.p.u.u.A.ArchiveAndDeleteTeam [testArchiveAndDelete:93] [TestNG-test=ArchiveAndDeleteTest-1] - Team Created
+2017-09-15 13:34:20,535 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndDeleteTest-1] - Successfully clicked on element 'Team1' with locator value 'XPATH,(.//*[@id='RULE_KEY']/div/div/div/div/span)[1]'
+2017-09-15 13:34:31,385 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndDeleteTest-1] - Successfully clicked on element 'ActionsMenu' with locator value 'CSS_SELECTOR,button[role='button']'
+2017-09-15 13:34:37,054 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndDeleteTest-1] - Successfully clicked on element 'ArchiveTeam' with locator value 'CSS_SELECTOR,.menu-item.menu-item-enabled:nth-of-type(4)'
+2017-09-15 13:34:47,696 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndDeleteTest-1] - Successfully clicked on element 'DeleteArchiveRestoreButton' with locator value 'CSS_SELECTOR,.Inset_danger.pzhc.pzbutton'
+2017-09-15 13:35:01,430 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndDeleteTest-1] - Successfully clicked on element 'ViewAllTeams' with locator value 'CSS_SELECTOR,.Standard_small'
+2017-09-15 13:35:06,801 INFO  c.p.u.c.BasePage [getText:507] [TestNG-test=ArchiveAndDeleteTest-1] - Text for element 'ActiveOrArchiveTeamsCount' with locator value 'CSS_SELECTOR,.work_identifier' is Archived Teams (1)
+2017-09-15 13:35:06,801 INFO  c.p.u.u.A.ArchiveAndDeleteTeam [testArchiveAndDelete:106] [TestNG-test=ArchiveAndDeleteTest-1] - Archive Teams Count:1
+2017-09-15 13:35:08,469 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndDeleteTest-1] - Successfully clicked on element 'Team1' with locator value 'XPATH,(.//*[@id='RULE_KEY']/div/div/div/div/span)[1]'
+2017-09-15 13:35:09,212 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndDeleteTest-1] - Successfully clicked on element 'ActionsMenu' with locator value 'CSS_SELECTOR,button[role='button']'
+2017-09-15 13:35:15,115 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndDeleteTest-1] - Successfully clicked on element 'DeleteArchiveTeam' with locator value 'CSS_SELECTOR,.menu-item.menu-item-enabled:nth-of-type(4)'
+2017-09-15 13:35:25,970 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndDeleteTest-1] - Successfully clicked on element 'DeleteArchiveRestoreButton' with locator value 'CSS_SELECTOR,.Inset_danger.pzhc.pzbutton'
+2017-09-15 13:35:31,873 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndDeleteTest-1] - Successfully clicked on element 'ViewAllTeams' with locator value 'CSS_SELECTOR,.Standard_small'
+2017-09-15 13:35:37,274 INFO  c.p.u.c.BasePage [getText:507] [TestNG-test=ArchiveAndDeleteTest-1] - Text for element 'ActiveOrArchiveTeamsCount' with locator value 'CSS_SELECTOR,.work_identifier' is Archived Teams (0)
+2017-09-15 13:35:37,274 INFO  c.p.u.u.A.ArchiveAndDeleteTeam [testArchiveAndDelete:112] [TestNG-test=ArchiveAndDeleteTest-1] - Count validated after team deleted.
+2017-09-15 13:35:37,554 INFO  c.p.u.c.BasePage [getText:507] [TestNG-test=ArchiveAndDeleteTest-1] - Text for element 'ActiveOrArchiveTeamsCount' with locator value 'CSS_SELECTOR,.work_identifier' is Archived Teams (0)
+2017-09-15 13:35:37,554 INFO  c.p.u.u.A.ArchiveAndDeleteTeam [testArchiveAndDelete:118] [TestNG-test=ArchiveAndDeleteTest-1] - Team deleted
+2017-09-15 13:35:50,696 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndDeleteTest-1] - Successfully clicked on element 'MyTeamsLogout' with locator value 'LINK_TEXT,Log out'
+2017-09-15 13:36:09,132 INFO  c.p.u.c.BasePage [type:165] [TestNG-test=ArchiveAndRestoreTest-1] - Successfully typed text 'xeno.andriopoulos@db.com' on element 'MyTeamsEmail' with locator value 'ID,edit-name'
+2017-09-15 13:36:09,593 INFO  c.p.u.c.BasePage [type:165] [TestNG-test=ArchiveAndRestoreTest-1] - Successfully typed text 'Install123' on element 'MyTeamsPassword' with locator value 'ID,edit-pass'
+2017-09-15 13:36:18,562 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndRestoreTest-1] - Successfully clicked on element 'MyTeamsLogin' with locator value 'ID,edit-submit'
+2017-09-15 13:36:18,562 INFO  c.p.u.u.A.ArchiveAndRestoreTeam [testArchiveAndRestore:61] [TestNG-test=ArchiveAndRestoreTest-1] - Now showing my teams home page.
+2017-09-15 13:36:18,945 INFO  c.p.u.c.BasePage [switchToFrameByName:701] [TestNG-test=ArchiveAndRestoreTest-1] - Successfully switched to frame identified by name 'PegaTeamsIfr'
+2017-09-15 13:36:19,287 INFO  c.p.u.c.BasePage [switchToFrameByName:701] [TestNG-test=ArchiveAndRestoreTest-1] - Successfully switched to frame identified by name 'PegaTeamsIfr'
+2017-09-15 13:36:19,649 INFO  c.p.u.c.BasePage [getText:507] [TestNG-test=ArchiveAndRestoreTest-1] - Text for element 'ActiveOrArchiveTeamsCount' with locator value 'CSS_SELECTOR,.work_identifier' is Active Teams (6)
+2017-09-15 13:36:19,650 INFO  c.p.u.u.A.ArchiveAndRestoreTeam [testArchiveAndRestore:67] [TestNG-test=ArchiveAndRestoreTest-1] - Active teams count:6
+2017-09-15 13:36:19,650 INFO  c.p.u.u.A.ArchiveAndRestoreTeam [testArchiveAndRestore:69] [TestNG-test=ArchiveAndRestoreTest-1] - Clicking on create button
+2017-09-15 13:36:20,561 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndRestoreTest-1] - Successfully clicked on element 'MyTeamsCreate' with locator value 'CSS_SELECTOR,.pi.icon-plus-circle'
+2017-09-15 13:36:30,565 INFO  c.p.u.u.A.ArchiveAndRestoreTeam [testArchiveAndRestore:72] [TestNG-test=ArchiveAndRestoreTest-1] - Now showing create team page
+2017-09-15 13:36:31,228 INFO  c.p.u.c.BasePage [type:165] [TestNG-test=ArchiveAndRestoreTest-1] - Successfully typed text 'TestName1505496990566' on element 'TeamName' with locator value 'XPATH,.//*[@id='pyLabel']'
+2017-09-15 13:36:31,864 INFO  c.p.u.c.BasePage [type:165] [TestNG-test=ArchiveAndRestoreTest-1] - Successfully typed text 'TestDesc1505496990566' on element 'TeamDescription' with locator value 'XPATH,.//*[@id='Description']'
+2017-09-15 13:36:33,597 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndRestoreTest-1] - Successfully clicked on element 'Next' with locator value 'CSS_SELECTOR,button[title$='item']'
+2017-09-15 13:36:43,598 INFO  c.p.u.u.A.ArchiveAndRestoreTeam [testArchiveAndRestore:77] [TestNG-test=ArchiveAndRestoreTest-1] - Now showing team page
+2017-09-15 13:36:44,456 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndRestoreTest-1] - Successfully clicked on element 'ActionsMenu' with locator value 'CSS_SELECTOR,button[role='button']'
+2017-09-15 13:36:45,331 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndRestoreTest-1] - Successfully clicked on element 'AddMembers' with locator value 'CSS_SELECTOR,.menu-item.menu-item-enabled:nth-of-type(1)'
+2017-09-15 13:36:46,867 INFO  c.p.u.c.BasePage [type:165] [TestNG-test=ArchiveAndRestoreTest-1] - Successfully typed text 'chaitanya.marathi@in.pega.com' on element 'AddEmail1' with locator value 'XPATH,.//*[@id='LoginID1']'
+2017-09-15 13:36:47,710 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndRestoreTest-1] - Successfully clicked on element 'AddMemeberSubmit' with locator value 'CSS_SELECTOR,button[id='ModalButtonSubmit']'
+2017-09-15 13:36:53,364 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndRestoreTest-1] - Successfully clicked on element 'ViewAllTeams' with locator value 'CSS_SELECTOR,.Standard_small'
+2017-09-15 13:37:03,709 INFO  c.p.u.c.BasePage [getText:507] [TestNG-test=ArchiveAndRestoreTest-1] - Text for element 'ActiveOrArchiveTeamsCount' with locator value 'CSS_SELECTOR,.work_identifier' is Active Teams (7)
+2017-09-15 13:37:03,709 INFO  c.p.u.u.A.ArchiveAndRestoreTeam [testArchiveAndRestore:84] [TestNG-test=ArchiveAndRestoreTest-1] - add-count:7
+2017-09-15 13:37:04,013 INFO  c.p.u.c.BasePage [getText:507] [TestNG-test=ArchiveAndRestoreTest-1] - Text for element 'ActiveOrArchiveTeamsCount' with locator value 'CSS_SELECTOR,.work_identifier' is Active Teams (7)
+2017-09-15 13:37:04,014 INFO  c.p.u.u.A.ArchiveAndRestoreTeam [testArchiveAndRestore:86] [TestNG-test=ArchiveAndRestoreTest-1] - Count validated after team created.
+2017-09-15 13:37:04,296 INFO  c.p.u.c.BasePage [getText:507] [TestNG-test=ArchiveAndRestoreTest-1] - Text for element 'ActiveOrArchiveTeamsCount' with locator value 'CSS_SELECTOR,.work_identifier' is Active Teams (7)
+2017-09-15 13:37:04,606 INFO  c.p.u.u.A.ArchiveAndRestoreTeam [testArchiveAndRestore:92] [TestNG-test=ArchiveAndRestoreTest-1] - Team Created
+2017-09-15 13:37:06,569 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndRestoreTest-1] - Successfully clicked on element 'Team1' with locator value 'XPATH,(.//*[@id='RULE_KEY']/div/div/div/div/span)[1]'
+2017-09-15 13:37:17,484 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndRestoreTest-1] - Successfully clicked on element 'ActionsMenu' with locator value 'CSS_SELECTOR,button[role='button']'
+2017-09-15 13:37:23,220 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndRestoreTest-1] - Successfully clicked on element 'ArchiveTeam' with locator value 'CSS_SELECTOR,.menu-item.menu-item-enabled:nth-of-type(4)'
+2017-09-15 13:37:34,026 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndRestoreTest-1] - Successfully clicked on element 'DeleteArchiveRestoreButton' with locator value 'CSS_SELECTOR,.Inset_danger.pzhc.pzbutton'
+2017-09-15 13:37:39,962 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndRestoreTest-1] - Successfully clicked on element 'ViewAllTeams' with locator value 'CSS_SELECTOR,.Standard_small'
+2017-09-15 13:37:45,313 INFO  c.p.u.c.BasePage [getText:507] [TestNG-test=ArchiveAndRestoreTest-1] - Text for element 'ActiveOrArchiveTeamsCount' with locator value 'CSS_SELECTOR,.work_identifier' is Archived Teams (1)
+2017-09-15 13:37:45,314 INFO  c.p.u.u.A.ArchiveAndRestoreTeam [testArchiveAndRestore:104] [TestNG-test=ArchiveAndRestoreTest-1] - Archive Teams Count:1
+2017-09-15 13:37:47,506 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndRestoreTest-1] - Successfully clicked on element 'Team1' with locator value 'XPATH,(.//*[@id='RULE_KEY']/div/div/div/div/span)[1]'
+2017-09-15 13:37:48,312 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndRestoreTest-1] - Successfully clicked on element 'ActionsMenu' with locator value 'CSS_SELECTOR,button[role='button']'
+2017-09-15 13:37:54,040 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndRestoreTest-1] - Successfully clicked on element 'RestoreArchiveTeam' with locator value 'CSS_SELECTOR,.menu-item.menu-item-enabled:nth-of-type(3)'
+2017-09-15 13:38:04,681 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndRestoreTest-1] - Successfully clicked on element 'DeleteArchiveRestoreButton' with locator value 'CSS_SELECTOR,.Inset_danger.pzhc.pzbutton'
+2017-09-15 13:38:10,317 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndRestoreTest-1] - Successfully clicked on element 'ViewAllTeams' with locator value 'CSS_SELECTOR,.Standard_small'
+2017-09-15 13:38:15,654 INFO  c.p.u.c.BasePage [getText:507] [TestNG-test=ArchiveAndRestoreTest-1] - Text for element 'ActiveOrArchiveTeamsCount' with locator value 'CSS_SELECTOR,.work_identifier' is Active Teams (7)
+2017-09-15 13:38:15,654 INFO  c.p.u.u.A.ArchiveAndRestoreTeam [testArchiveAndRestore:110] [TestNG-test=ArchiveAndRestoreTest-1] - Active teams count validated after team restored.
+2017-09-15 13:38:15,989 INFO  c.p.u.c.BasePage [getText:507] [TestNG-test=ArchiveAndRestoreTest-1] - Text for element 'ActiveOrArchiveTeamsCount' with locator value 'CSS_SELECTOR,.work_identifier' is Active Teams (7)
+2017-09-15 13:38:16,296 INFO  c.p.u.u.A.ArchiveAndRestoreTeam [testArchiveAndRestore:116] [TestNG-test=ArchiveAndRestoreTest-1] - Team Restored
+2017-09-15 13:38:16,928 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndRestoreTest-1] - Successfully clicked on element 'ViewActiveOrArchiveTeams' with locator value 'CSS_SELECTOR,a[data-test-id='201704210800290033194944']'
+2017-09-15 13:38:22,193 INFO  c.p.u.c.BasePage [getText:507] [TestNG-test=ArchiveAndRestoreTest-1] - Text for element 'ActiveOrArchiveTeamsCount' with locator value 'CSS_SELECTOR,.work_identifier' is Archived Teams (0)
+2017-09-15 13:38:22,193 INFO  c.p.u.u.A.ArchiveAndRestoreTeam [testArchiveAndRestore:125] [TestNG-test=ArchiveAndRestoreTest-1] - Archive teams count validated after team restored.
+2017-09-15 13:38:22,910 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndRestoreTest-1] - Successfully clicked on element 'ViewActiveOrArchiveTeams' with locator value 'CSS_SELECTOR,a[data-test-id='201704210800290033194944']'
+2017-09-15 13:38:32,531 INFO  c.p.u.c.BasePage [click:122] [TestNG-test=ArchiveAndRestoreTest-1] - Successfully clicked on element 'MyTeamsLogout' with locator value 'LINK_TEXT,Log out'

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="My Teams Test Suite" verbose="1" parallel="classes" thread-count="1" preserve-order="true">
+    <listeners>
+        <listener class-name="com.pega.uiframework.listener.ScreenshotListener" />
+        <listener class-name="com.pega.uiframework.listener.RetryListener" />
+    </listeners>
+
+
+   <!-- <test name="Client Tests">
+    <parameter name="browser" value="chrome" />
+    <parameter name="version" value="57.0" />
+    <parameter name="platform" value="MAC" />
+    <groups><run>
+        <include name="regression" />
+    </run>
+    </groups>
+        <classes>
+            <class name="com.pega.uiframework.uitest.ArchiveTeam.ArchiveAndDeleteTeam" />
+        </classes>
+    </test>-->
+
+    <test name="ArchiveAndDeleteTest">
+        <parameter name="os" value="Mac10.12"/>
+        <parameter name="browser" value="Chrome59x64"/>
+        <parameter name="resolution" value="1366x768"/>
+        <groups>
+            <run>
+                <include name="regression" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.pega.uiframework.uitest.ArchieveTeam.ArchiveAndDeleteTeam" />
+        </classes>
+    </test>
+    <test name="ArchiveAndRestoreTest">
+        <parameter name="os" value="Mac10.12"/>
+        <parameter name="browser" value="Chrome59x64"/>
+        <parameter name="resolution" value="1366x768"/>
+        <groups>
+            <run>
+                <include name="regression" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.pega.uiframework.uitest.ArchieveTeam.ArchiveAndRestoreTeam" />
+        </classes>
+    </test>
+</suite>
