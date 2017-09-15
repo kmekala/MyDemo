@@ -109,7 +109,7 @@ public class BaseTest
 
 
     public void securetunnel() throws Exception{
-        Process p = Runtime.getRuntime().exec(System.getProperty("user.dir")+"/SecureTunnel/cbt-tunnels-win64.exe --username smitha.vijayakumar%40in.pega.com --authkey udbb51c6e48ebd0b");
+        Process p = Runtime.getRuntime().exec(System.getProperty("user.dir")+"/SecureTunnel/cbt-tunnels-linux --username smitha.vijayakumar%40in.pega.com --authkey udbb51c6e48ebd0b");
         Thread.sleep(10000);
     }
 
