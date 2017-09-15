@@ -35,7 +35,7 @@ public class BaseTest
         // extent = new ExtentReports(System.getProperty("user.dir")+"/reports/TestReport.html", true); //Provide Desired Report Directory Location and Name
         // extent.loadConfig(new File("extent-config.xml")); //Supporting File for Extent Reporting
         // extent.addSystemInfo("Environment","QA"); //It will provide Execution Machine Information
-        securetunnel();
+        //securetunnel();
     }
 
     @AfterSuite(alwaysRun = true)
